@@ -1,0 +1,74 @@
+.pdp
+{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    text-decoration: underline;
+}
+
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    color: rgb(10, 11, 10);
+}
+
+.profil
+{
+    float: right;
+    margin-top: -2cm;
+    background-color: rgb(3, 212, 3);
+}
+
+h4
+{
+    text-decoration: underline;
+}
+
+h4
+{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.info
+{
+    margin-top: 7vw;
+}
+
+.contenu
+{
+    width: 90%;
+    height: auto;
+    background-color: rgb(15, 244, 15);
+    margin-left: 5%;
+    margin-top: 6vw;
+}
+
+.pdp1
+{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    text-decoration: underline;
+}
+
+
+#pub
+{
+width: 18%;
+margin-left: 40%;
+}
+
+.pdp1
+{
+    float: left;
+}
+
+section
+{
+    float: right;
+}

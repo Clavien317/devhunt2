@@ -1,0 +1,52 @@
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    color: rgb(3, 189, 3);
+    padding: 10px;
+    border-bottom:  green 5px;
+}
+
+button
+{
+    width: 20%;
+    margin-left: 5%;
+    padding: 5px;
+    color: white;
+    border: 0;
+}
+
+input
+{
+    width: 35%;
+    height: 2vw;
+    border-radius: 5px;
+    border: 0;
+    background-color: #efecec;
+}
+
+label
+{
+    min-width: 200px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+span
+{
+    color: red;
+}
+
+.reset
+{
+    background-color: red;
+
+}
+
+.submit
+{
+background-color: green;
+}

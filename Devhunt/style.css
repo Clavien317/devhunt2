@@ -1,0 +1,282 @@
+#cache{
+    width: 2cm;
+    height: 2cm;
+    color: red;
+    visibility: hidden;
+
+}
+
+#titre
+{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid white;
+    text-shadow: green red;
+}
+
+.header{
+    height: 1cm;
+}
+.btn{
+    margin-left: 1cm;
+    margin-top: 0.2cm;
+    width: 100px;
+    color: white;
+    background-color:#191919;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.notif,.user{
+    margin-top: 0.3cm;
+    margin-left: 0.5cm;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    color: white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+      background-color: black;
+      animation-name: anime;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      border-radius: 15px;
+      text-decoration: underline;
+  }
+  @keyframes anime {
+      0%{background-color: #332121;}
+      25%{background-color: #311515;}
+      50%{background-color: #330e0e;}
+      75%{background-color: #1b1030;}
+      100%{background-color: #1d0d3a;}
+      
+  }
+  .teste{
+      float: right;
+      margin-left: 15cm;
+      margin-top: -1cm;
+  }
+  .team{
+      float: left;
+      margin-left: 2cm;
+      margin-top: -0.8cm;
+  }
+  .learn{
+      margin-left: 2cm;
+      border-radius: 15px;
+      background-color: tomato;
+  }
+  .container .text{
+    position: relative;
+      font-size: 50px;
+      float: right;
+      margin-top: -10cm;
+      margin-right: 1cm;
+      color: rgb(230, 236, 230);
+  }
+  .text.sec-text:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #010718;
+      border-left: 5px solid blue;
+      animation: animate 4s steps(12) infinite;
+  }
+  @keyframes animate {
+      40%,60%{left: 100%;}
+      100%{left: 0%;}
+  }
+  body{
+    background-color: #010718;
+}
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+h2{
+    color: skyblue;
+}
+.div1{
+    float: left;
+    margin-top: 6cm;
+    margin-left: 2cm;
+}
+.div2,.div3,.div4,.div5{
+    float: right;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(7, 6, 6);
+}
+.div3{
+    margin-top: 1.5cm;
+}
+.logo{
+    width: 500px;
+    border-radius: 18vw;
+}
+.danger{
+    height: 1.2cm;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(10, 186, 7);
+    cursor: pointer;
+    margin-top: -0.5cm;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.div2{
+    margin-left: 0.5cm;
+    margin-top: 2cm;
+}
+.div4{
+    margin-top: 1cm;
+    margin-left: 4cm;
+}
+.div5{
+    margin-left: 6cm;
+    margin-top: -3cm;
+}
+.blog-right{
+    margin-left: 620px;
+    width: 30%;
+    height: 8cm;
+    margin-top: -9.5cm;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #191919;
+    color: white;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+.eni{
+    border-radius: 30px;
+    width: 30%;
+    height: 9.5cm;
+    margin-top: 1cm;
+    margin-left: 3cm;
+}
+.cache{
+    visibility: hidden;
+}
+p{
+    color: white;
+    
+}
+span{
+    color: #fff;
+}
+ h5{
+    color: white;
+}
+.footer{
+    text-align: center;
+    padding-top: 25cm;
+}
+h2{
+    color: white;
+}
+.icons{
+    margin-left: 20px;
+}
+
+@media screen and (max-width:700px){
+    .teste{
+        visibility: hidden;
+    }
+    .learn{
+        margin-left: 3cm;
+        float: right;
+        margin-top: -2.5cm;
+    }
+    #cache{
+        visibility: visible;
+        font-size: 50px;
+        margin-top: -1cm;
+        margin-left: 7cm;
+    }
+    p{
+        font-size: 15px;
+    }
+    #cache a{
+        text-decoration: none;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .div5{
+        margin-top: 2cm;
+    }
+    .div2{
+        margin-left: 3cm;
+    }
+    .blog-right{
+        visibility: hidden;
+        float: right;
+        margin-right: 8cm;
+    }
+    .eni{
+        float:right;
+        margin-right: 0cm;
+        width: 300px;
+    }
+    .div1{
+        float: right;
+        margin-top: -0.5cm;
+    }
+    .grand{
+        font-size: 20px;
+        margin-right: 4cm;
+    }
+    .div2,.div3,.div4,.div5{
+        width: 300px;
+        float: right;
+        text-align: center;
+    }
+    .text.sec-text{
+        font-size: 15px;
+        margin-top: 1cm;
+    }
+    .logo{
+        width: 100px;
+    }
+}
+@media screen and (min-width:700px){
+    .div5{
+        float: right;
+        margin-right: -22cm;
+        margin-top: 3cm;
+    }
+    .teste{
+        margin-top: 1cm;
+    }
+  }
